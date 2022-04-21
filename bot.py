@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 bot_token = str(os.environ.get("BOT_TOKEN"))
-handler_list = ['help','add','delete','info','send','list','test']
+handler_list = ['help','add','delete','info','send','list']
 
 updater = Updater(bot_token,use_context=True)
 dp = updater.dispatcher
