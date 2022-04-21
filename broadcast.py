@@ -9,7 +9,6 @@ db_user = str(os.environ.get("MYSQL_USER"))
 db_name = str(os.environ.get("MYSQL_DATABASE"))
 bot_token = str(os.environ.get("BOT_TOKEN"))
 
-
 def updateStatusAccount(chat_id):
     db = mysql.connector.connect(
         host=db_host,
